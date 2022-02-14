@@ -1,0 +1,251 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+header {
+    background-color: rgb(41, 53, 68);
+    border-bottom: 4px solid orange;
+
+
+}
+.container1 {
+    background-color: rgb(41, 53, 68);
+    color: white;
+    display:flex;
+    flex-wrap: wrap;
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 80px;
+    margin: 0 auto;
+
+
+    
+}
+
+
+header nav {
+    margin-left: auto;
+    /* margin-right: 10px; */
+    align-self: center;
+}
+ a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-size:15px;
+}
+a span {
+    color: orange;
+}
+.logo {
+    font-size: 30px;
+    padding-left: 20px;
+
+    align-self: center;
+}
+.logo h2 span {
+    color: orange;
+}
+
+
+
+
+ 
+
+
+
+section {
+    background-color: rgb(41, 53, 68);
+    width: 100%;
+    height: 60px;
+}
+.container2 {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+    
+  
+}
+.newsletter {
+    color: white;
+    padding-top: 18px;
+    font-size: 20px;
+}
+.form-group {
+    padding-top: 15px;
+  
+
+}
+  input {
+    padding: 5px ;
+    width: 250px;
+}
+form button {
+    padding: 6px;
+    background-color: orange;
+    border: none;
+    color: white;
+   
+
+}
+article {
+    display: flex;
+    flex-wrap: wrap;
+}
+.heading {
+    width: 80%;
+    margin: 0px auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 25px;
+
+}
+.grid-container {
+    width:80%;
+    margin:  0px auto;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 850px 330px;
+    grid-template-rows: 170px 170px  170px;
+    margin-bottom: 20px;
+    
+}
+.container3 {
+    background-color: lightgrey;
+    grid-column: 1/2;
+    
+}
+.container3 h2 {
+    font-weight: 600;
+    padding: 20px 0px 20px 10px;
+}
+.container3 p {
+    padding: 0px 10px 0px 10px;
+}
+.container3 h3 {
+    padding: 20px 10px 0px 10px;
+}
+.container4 {
+    background-color: rgb(41, 53, 68);
+    grid-row: 1/3;
+    grid-column: 2/3;
+    margin-left: 30px;
+    color: white;
+    
+}
+.container4 h2{
+    font-size: 18px;
+    padding: 20px 0px 20px 20px ;
+    font-weight: 600;
+}
+.form-grp {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+form input {
+    padding:10px 0px 10px 0px;
+}
+.input-wrapper {
+    padding-bottom: 10px;
+}
+
+.container5 {
+    background-color: lightgrey;
+    grid-column: 1/2;
+    
+}
+.container5 h2 {
+    font-weight: 600;
+    padding: 20px 0px 20px 10px;
+}
+.container5 p {
+    padding: 0px 10px 0px 10px;
+}
+.container5 h3 {
+    padding: 20px 10px 0px 10px;
+}
+.container6 {
+    background-color: lightgrey;
+}
+.container6 h2 {
+    font-weight: 600;
+    padding: 20px 0px 20px 10px;
+}
+.container6 p {
+    padding: 0px 10px 0px 10px;
+}
+.container6 h3 {
+    padding: 20px 10px 0px 10px;
+}
+
+
+
+footer {
+    background-color: orange;
+    width: 100%;
+    height: 55px;
+    text-align: center;
+    color: white;
+
+}
+footer p {
+    padding-top: 15px;
+}
+
